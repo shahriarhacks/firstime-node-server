@@ -36,3 +36,5 @@ app.get('/catagories/:name', (req, res) => {
 app.listen(Port, () => {
     console.log('Server is running',Port)
 })
+
+module.exports = app;
